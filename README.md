@@ -1,1 +1,0 @@
-# thecegid.github.io
