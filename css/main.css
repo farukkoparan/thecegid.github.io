@@ -85,6 +85,10 @@ span{padding: 1px 10px; background-color: #d2d2d2; border-radius: 15px;}
 .onclick{
 	cursor: pointer;
 }
+.content-img{
+	border-bottom: 3px dashed #c33333;
+	width: 100%;
+}
 blockquote{
 	position: relative;
 	margin: 30px auto 0 auto;
