@@ -32,6 +32,7 @@ span{padding: 1px 10px; background-color: #d2d2d2; border-radius: 15px;}
 	border-radius: 25px;
 }
 .content .ul li a:hover{
+	transition: 0.3s;
 	background: #c2c5da;
 	color: #000;
 	text-decoration: none;
