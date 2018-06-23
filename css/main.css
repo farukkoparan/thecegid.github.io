@@ -33,8 +33,7 @@ span{padding: 1px 10px; background-color: #d2d2d2; border-radius: 15px;}
 }
 .content .ul li a:hover, .content .ul li a.sidemenu-active{
 	transition: 0.3s;
-	background: #c2c5da;
-	color: #000;
+	opacity: 0.6;
 	text-decoration: none;
 }
 .pagesubhead{color: #c33333; font-size: 1.2rem; font-weight: 900;}
