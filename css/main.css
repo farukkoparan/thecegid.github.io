@@ -31,7 +31,7 @@ span{padding: 1px 10px; background-color: #d2d2d2; border-radius: 15px;}
 	padding: 3px 5px;
 	border-radius: 25px;
 }
-.content .ul li a:hover{
+.content .ul li a:hover, .content .ul li a.sidemenu-active{
 	transition: 0.3s;
 	background: #c2c5da;
 	color: #000;
