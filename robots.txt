@@ -1,13 +1,2 @@
 User-agent: *
 Allow: /
-
-User-Agent: Googlebot
-User-agent: Googlebot-Image
-User-agent: YandexBot
-User-agent: YandexImages
-User-agent: Bingbot
-Allow: /
-Allow: .js
-Allow: .css
-
-Sitemap: https://thecegid.github.io/sitemap.xml
