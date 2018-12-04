@@ -8,12 +8,14 @@ html,body{
 	margin:0
 }
 body{
-	background:#222;
+	background:#0a0a0a;
 	color:#fff
 }
 
 #top-side{
-	height:100%;
+	z-index:99;
+	box-shadow:0 0 25px 10px #000;
+	text-align:center;
 	background-image:url(../uploads/background.jpg);
 	background-position:50%;
 	background-repeat:no-repeat;
@@ -33,4 +35,21 @@ body{
 	font-size:20px;
 	font-weight:bold;
 	cursor:pointer
+}
+.huge-title{
+	font-size:3.75em;
+	margin:10px 0 25px 0
+}
+
+#content-area{
+	z-index:98;
+	padding:2em 0
+}
+.aviation-alphabet-bg{
+	background:#212529;
+	padding:15px 15px .1px 15px;
+	text-align:justify
+}
+.aviation-alphabet-bg table,.aviation-alphabet-bg h5{
+	text-align:center
 }
