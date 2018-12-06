@@ -1,9 +1,7 @@
 ::-webkit-scrollbar{width:7.5px}::-webkit-scrollbar-track{background:#0e0e0e}::-webkit-scrollbar-thumb{background:#888;border-radius:7.5px}::-webkit-scrollbar-thumb:hover{background:#555}
 ::-moz-selection{color:#fff;background:#f44336}::selection{color:#fff;background:#f44336}
-@font-face{font-family:'robotoregular';src:url('font/Roboto.woff') format('woff');font-weight:normal;font-style:normal}
 
 html,body{
-	font-family:"Roboto";
 	height:100%;
 	margin:0
 }
