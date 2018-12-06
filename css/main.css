@@ -49,5 +49,7 @@ body{
 	text-align:center
 }
 .page-title{
-	text-align:center
+	text-align:center;
+	text-shadow:4px 4px 0 #000;
+	color:#ffd908
 }
