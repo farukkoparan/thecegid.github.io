@@ -16,10 +16,7 @@ body{
 	z-index:99;
 	box-shadow:0 0 25px 10px #000;
 	text-align:center;
-	background-image:url(../uploads/background.jpg);
-	background-position:50%;
-	background-repeat:no-repeat;
-	background-size:cover
+	background:#111
 }
 .dont-touch{
 	-webkit-user-select:none;
@@ -50,6 +47,9 @@ body{
 	padding:15px 15px .1px 15px;
 	text-align:justify
 }
-.aviation-alphabet-bg table,.aviation-alphabet-bg h5{
+.aviation-alphabet-bg table,.aviation-alphabet-bg h3{
+	text-align:center
+}
+.page-title{
 	text-align:center
 }
