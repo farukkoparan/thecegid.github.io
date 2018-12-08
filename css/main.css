@@ -49,10 +49,28 @@ body{
 	padding:12px 0;
 	width:600px
 }
+.social-links ul{
+	list-style:none;
+	padding:0
+}
+.references ul{
+	list-style:none;
+	padding:0
+}
+.location ul{
+	list-style:none;
+	padding:0
+}
+.location span{
+	font-size:12px
+}
 
 /* INNER PAGE's */
+.work{
+	margin:0 0 1.5em 0
+}
 .work ul{
-	list-style-type:none;
+	list-style:none;
 	padding:0
 }
 .work ul li{
