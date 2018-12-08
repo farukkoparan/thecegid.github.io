@@ -13,12 +13,10 @@ body{
 	color:#fff
 }
 
-/* PER EACH PAGE */
 #top-side{
 	background:#0a0a0a;
 	padding:8% 0 0 0;
 	height:100%;
-	z-index:99;
 	text-align:center
 }
 .dont-touch{
@@ -49,15 +47,7 @@ body{
 	padding:12px 0;
 	width:600px
 }
-.social-links ul{
-	list-style:none;
-	padding:0
-}
 .references ul{
-	list-style:none;
-	padding:0
-}
-.location ul{
 	list-style:none;
 	padding:0
 }
@@ -65,7 +55,6 @@ body{
 	font-size:12px
 }
 
-/* INNER PAGE's */
 .work{
 	margin:0 0 1.5em 0
 }
@@ -89,4 +78,5 @@ body{
 	margin-top:0;
 	opacity:.24
 }
-@media only screen and (max-width:768px){.everything-is-here{width:80%}.work{padding:0 36px}}
+
+@media only screen and (max-width:768px){.everything-is-here{width:80%}.work{padding:0 36px}.social-links{margin:0 0 24px 0}}
