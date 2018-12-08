@@ -8,18 +8,18 @@ html,body{
 	margin:0
 }
 body{
-	font-family: 'Josefin Sans', sans-serif;
-	background:#0a0a0a;
+	font-family:'Josefin Sans', sans-serif;
+	background:#111;
 	color:#fff
 }
 
 /* PER EACH PAGE */
 #top-side{
-	z-index:99;
-	box-shadow:0 0 24px 8px #000;
-	text-align:center;
+	background:#0a0a0a;
+	padding:8% 0 0 0;
 	height:100%;
-	background:#111
+	z-index:99;
+	text-align:center
 }
 .dont-touch{
 	-webkit-user-select:none;
@@ -29,8 +29,8 @@ body{
 	cursor:pointer
 }
 .my-logo{
-	margin:8px 0 8px 0;
 	font-family:'Anton', sans-serif;
+	margin:8px 0 8px 0;
 	text-shadow:4px 4px 0 #000;
 	color:#ffd908
 }
@@ -40,21 +40,35 @@ body{
 	cursor:pointer
 }
 .bullshit{
-	margin:32px 0
+	margin:32px 0 12px 0
+}
+
+.everything-is-here{
+	box-shadow:0 0 24px 8px #000;
+	background:#111;
+	padding:12px 0;
+	width:600px
 }
 
 /* INNER PAGE's */
 .work ul{
-	list-style-type:none
+	list-style-type:none;
+	padding:0
 }
-.work ul li::before{
- 	content:'— '
+.work ul li{
+	background:#f44336;
+	border-radius:4px;
+	transition:350ms;
+	margin:4px 4px;
+	padding:4px;
+	float:left
 }
-.work ul li::after{
- 	content:' —'
+.work ul li:hover{
+	background:#a53730
 }
 .work hr{
 	background-color:#fff;
 	margin-top:0;
 	opacity:.24
 }
+@media only screen and (max-width:768px){.everything-is-here{width:80%}.work{padding:0 36px}}
