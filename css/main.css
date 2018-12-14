@@ -51,7 +51,21 @@ body{
 .location address{
 	font-size:12px
 }
-
+.introduce hr{
+	background-color:#fff;
+	margin-top:0;
+	opacity:.24
+}
+.introduce h3{
+	font-size:1.5rem
+}
+.introduce p{
+	text-align:center;
+}
+.introduce p span{
+	font-weight:900;
+	color:#f44336
+}
 .work{
 	margin:0 0 1.5em 0
 }
