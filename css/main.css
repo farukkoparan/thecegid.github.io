@@ -38,10 +38,8 @@ body{
 .bullshit{
 	margin:32px 0 12px 0
 }
-
 .everything-is-here{
 	box-shadow:0 0 24px 8px #000;
-	border:5px solid #282828;
 	background:#111;
 	padding:12px 0;
 	width:600px
