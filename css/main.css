@@ -104,4 +104,4 @@ body{
 	margin-top:0;
 	opacity:.24
 }
-@media only screen and (max-width:768px){.everything-is-here{width:80%}.work{padding:0 36px}.location{margin:0 0 24px 0}.everything-is-here{margin-bottom:8%}.content-area .row{padding:0 21px}}
+@media only screen and (max-width:768px){.everything-is-here{width:80%}.work{padding:0 36px}.location{margin:0 0 24px 0}.everything-is-here{margin-bottom:8%;padding-bottom:24px}.content-area .row{padding:0 21px}}
