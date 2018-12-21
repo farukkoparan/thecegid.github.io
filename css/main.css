@@ -53,7 +53,8 @@ body{
 	font-size:12px
 }
 .content-area{
-	font-family:'Roboto', sans-serif;
+	font-size:12px;
+	font-family:'Roboto', sans-serif
 }
 .content-area hr{
 	background-color:#fff;
