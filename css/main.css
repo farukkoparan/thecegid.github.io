@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Anton');
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 ::-webkit-scrollbar{width:8px}::-webkit-scrollbar-track{background:#0e0e0e}::-webkit-scrollbar-thumb{background:#888;border-radius:8px}::-webkit-scrollbar-thumb:hover{background:#555}
 ::-moz-selection{color:#fff;background:#f44336}::selection{color:#fff;background:#f44336}
 html,body{
@@ -51,6 +52,9 @@ body{
 .location address{
 	font-size:12px
 }
+.content-area{
+	font-family:'Roboto', sans-serif;
+}
 .content-area hr{
 	background-color:#fff;
 	margin-top:0;
@@ -66,7 +70,7 @@ body{
 	left:15px;
 	bottom:0
 }
-.content-area span{
+.post-name{
 	text-shadow:2px 3.2px 2px #f44336;
 	background:rgba(0, 0, 0, 0.64);
 	width:calc(100% - 30px);
