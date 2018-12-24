@@ -44,7 +44,7 @@ body{
 	padding:12px 0;
 	width:600px
 }
-.references ul{
+.references ul, .work ul{
 	list-style:none;
 	padding:0
 }
@@ -54,6 +54,10 @@ body{
 .content-area{
 	font-size:12px;
 	font-family:'Roboto', sans-serif
+}
+.content-area h4, .content-area h5, .content-area h6{
+	font-family:'Josefin Sans', sans-serif;
+	color:#f44336
 }
 .content-area hr{
 	background-color:#fff;
@@ -87,10 +91,6 @@ body{
 }
 .work{
 	margin:0 0 1.5em 0
-}
-.work ul{
-	list-style:none;
-	padding:0
 }
 .work ul li{
 	background:#f44336;
