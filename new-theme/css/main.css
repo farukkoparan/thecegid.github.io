@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=Anton');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+::-webkit-scrollbar{width:8px}::-webkit-scrollbar-track{background:#0e0e0e}::-webkit-scrollbar-thumb{background:#888;border-radius:8px}::-webkit-scrollbar-thumb:hover{background:#555}
+::-moz-selection{color:#fff;background:#f44336}::selection{color:#fff;background:#f44336}
+html,body{
+	background:#0a0a0a;
+	margin:0
+}
+body{
+	font-family:'Josefin Sans', sans-serif;
+	color:#fff
+}
+.watermark-frame{
+	position:fixed;
+	width:94%;
+	height:94%;
+	top:3%;
+	right:3%;
+	border:3px solid #960000
+}
+#content{
+	padding:4%
+}
+.dont-touch{
+	-webkit-user-select:none;
+	-moz-user-select:none;
+	-ms-user-select:none;
+	user-select:none;
+	cursor:pointer
+}
+@media only screen and (max-width:768px){
+	.watermark-frame{
+		height:96%;
+		top:2%;
+	}
+}
